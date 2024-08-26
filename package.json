@@ -1,0 +1,22 @@
+{
+  "name": "xempire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "farm": "tsc && node ./build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "https-proxy-agent": "^7.0.5",
+    "luxon": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^20.12.2",
+    "ts-node": "^10.9.2"
+  }
+}
